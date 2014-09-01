@@ -1,0 +1,27 @@
+overviewText = "";
+overviewTextLocked = "Echo 12";
+author = "Spirit"; 
+onLoadName = "Dawn";
+loadScreen = "";
+respawn = 3;
+respawndelay = 5;
+disabledAI = 1;
+RespawnDialog = 1;
+
+class Header
+{
+	gameType=Coop;
+	minPlayers=1;
+	maxPlayers=21;
+};
+
+class Params
+{
+	class HeadlessClient
+	{
+		title = "Headless Client";
+		values[]= {0,1};
+		texts[] = {"OFF","ON"};
+		default = 1;
+	};
+};
