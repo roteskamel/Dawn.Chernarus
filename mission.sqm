@@ -59,7 +59,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={134.68086,6,1611.3608};
+					position[]={128.1552,6,1609.1902};
 					azimut=-165.09349;
 					id=0;
 					side="WEST";
@@ -342,7 +342,7 @@ class Mission
 				items=2;
 				class Item0
 				{
-					position[]={144.73337,6,1606.8757};
+					position[]={147.66884,6,1607.2081};
 					azimut=349.30301;
 					special="NONE";
 					id=8;
@@ -353,6 +353,7 @@ class Mission
 					rank="CAPTAIN";
 					skill=0.60000002;
 					text="s1";
+					init="ret=[group this,[""König"",""pl"",""ColorBlue""]] call e12_amf_tracking_fnc_createMarker;";
 					description="#1 PLTL";
 				};
 				class Item1
@@ -390,6 +391,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="s3";
+					init="ret=[group this,[""Läufer"",""sl"",""ColorBlue""]] call e12_amf_tracking_fnc_createMarker;";
 					description="#3 SQL";
 				};
 				class Item1
@@ -427,6 +429,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="s5";
+					init="ret=[group this,[""Läufer 1"",""ft"",""ColorBlue""]] call e12_amf_tracking_fnc_createMarker;";
 					description="#5 FTL";
 				};
 				class Item1
@@ -489,6 +492,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="s9";
+					init="ret=[group this,[""Läufer 2"",""ft"",""ColorBlue""]] call e12_amf_tracking_fnc_createMarker;";
 					description="#9 FTL";
 				};
 				class Item1
@@ -551,6 +555,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="s13";
+					init="ret=[group this,[""Springer 1"",""ft"",""ColorBlue""]] call e12_amf_tracking_fnc_createMarker;";
 					description="#13 MAT";
 				};
 				class Item1
@@ -587,6 +592,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="s15";
+					init="ret=[group this,[""Springer 2"",""ft"",""ColorBlue""]] call e12_amf_tracking_fnc_createMarker;";
 					description="#15 MAT";
 				};
 				class Item1
@@ -623,6 +629,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="s17";
+					init="ret=[group this,[""Bauer"",""se"",""ColorBlue""]] call e12_amf_tracking_fnc_createMarker;";
 					description="#17 ENG";
 				};
 				class Item1
@@ -660,6 +667,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="s19";
+					init="ret=[group this,[""Turm"",""su"",""ColorBlue""]] call e12_amf_tracking_fnc_createMarker;";
 					description="#19 COMMANDER";
 				};
 				class Item1
