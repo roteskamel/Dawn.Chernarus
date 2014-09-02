@@ -36,8 +36,12 @@ if(!isServer) then {waitUntil{!isNull player}};
 //////  Endtrigger  nur für S1  //////
 //////////////////////////////////////
 1 setRadioMsg "NULL";
+2 setRadioMsg "NULL";
+3 setRadioMsg "Null";
 if(player==s1) then {
 	1 setRadioMsg "ende";
+	2 setRadioMsg "fallback";
+	3 setRadioMsg "arti";
 };
 
 
