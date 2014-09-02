@@ -737,7 +737,7 @@ class Mission
 				class Item0
 				{
 					position[]={1840.6957,6.1164455,2207.7468};
-					azimut=323.07498;
+					azimut=323.07501;
 					special="NONE";
 					id=28;
 					side="GUER";
@@ -4954,7 +4954,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=17;
+		items=23;
 		class Item0
 		{
 			position[]={168.89235,6,1619.541};
@@ -5055,6 +5055,42 @@ class Mission
 		{
 			position[]={7483.627,-49.659531,1709.1119};
 			name="zieljet2";
+			type="Empty";
+		};
+		class Item17
+		{
+			position[]={9371.1133,7.4321871,2059.0557};
+			name="tank1";
+			type="Empty";
+		};
+		class Item18
+		{
+			position[]={9440.9902,5.8509417,2047.0953};
+			name="tank2";
+			type="Empty";
+		};
+		class Item19
+		{
+			position[]={9502.6836,5.5906386,2031.3574};
+			name="tank3";
+			type="Empty";
+		};
+		class Item20
+		{
+			position[]={6367.4048,5.9899998,2632.4541};
+			name="zieltank1";
+			type="Empty";
+		};
+		class Item21
+		{
+			position[]={6597.3267,6,2425.9314};
+			name="zieltank2";
+			type="Empty";
+		};
+		class Item22
+		{
+			position[]={6345.0229,6,2421.8618};
+			name="zieltank3";
 			type="Empty";
 		};
 	};

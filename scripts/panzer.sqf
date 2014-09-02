@@ -1,9 +1,9 @@
 if (!isServer) exitwith {};
 
-_crew1 = creategroup resistance; 
-_tank1 = [getMarkerPos "spz1", 300, "SUD_BTR100", _crew1] call BIS_fnc_spawnVehicle;
+_crew4 = creategroup resistance; 
+_tank4 = [getMarkerPos "tank1", 300, "RU_MBT_02_cannon_F", _crew4] call BIS_fnc_spawnVehicle;
 
-_wp1 = _crew1 addWaypoint [getmarkerpos "zielspz1", 0];
+_wp1 = _crew4 addWaypoint [getmarkerpos "zieltank1", 0];
 _wp1 setWaypointType "MOVE";
 _wp1 setWaypointSpeed "LIMITED";
 _wp1 setWaypointBehaviour "SAFE";
@@ -17,12 +17,12 @@ _x setskill ["commanding",0.30];
 _x setskill ["aimingShake",0.30];
 _x setskill ["aimingSpeed",0.30];
 } 
-foreach units _crew1;
+foreach units _crew4;
 
-_crew2 = creategroup resistance; 
-_tank2 = [getMarkerPos "spz2", 300, "SUD_BTR100", _crew2] call BIS_fnc_spawnVehicle;
+_crew5 = creategroup resistance; 
+_tank5 = [getMarkerPos "tank2", 300, "RU_MBT_02_cannon_F", _crew5] call BIS_fnc_spawnVehicle;
 
-_wp1 = _crew2 addWaypoint [getmarkerpos "zielspz2", 0];
+_wp1 = _crew5 addWaypoint [getmarkerpos "zieltank2", 0];
 _wp1 setWaypointType "MOVE";
 _wp1 setWaypointSpeed "LIMITED";
 _wp1 setWaypointBehaviour "SAFE";
@@ -36,13 +36,13 @@ _x setskill ["commanding",0.30];
 _x setskill ["aimingShake",0.30];
 _x setskill ["aimingSpeed",0.30];
 } 
-foreach units _crew2;
+foreach units _crew5;
 
 
-_crew3 = creategroup resistance; 
-_tank3 = [getMarkerPos "spz3", 300, "SUD_BTR100", _crew3] call BIS_fnc_spawnVehicle;
+_crew6 = creategroup resistance; 
+_tank6 = [getMarkerPos "tank3", 300, "RU_MBT_02_cannon_F", _crew6] call BIS_fnc_spawnVehicle;
 
-_wp1 = _crew3 addWaypoint [getmarkerpos "zielspz3", 0];
+_wp1 = _crew6 addWaypoint [getmarkerpos "zieltank3", 0];
 _wp1 setWaypointType "MOVE";
 _wp1 setWaypointSpeed "LIMITED";
 _wp1 setWaypointBehaviour "SAFE";
@@ -56,4 +56,4 @@ _x setskill ["commanding",0.30];
 _x setskill ["aimingShake",0.30];
 _x setskill ["aimingSpeed",0.30];
 } 
-foreach units _crew3;
+foreach units _crew6;
