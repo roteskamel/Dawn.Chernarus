@@ -2,11 +2,20 @@ titlecut [" ","BLACK IN",1]
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal", "back"]
 
+;comment "Start";
+_camera camPrepareTarget [60439.65,86075.34,-209.83];
+_camera camPreparePos [5724.44,2375.13,2.15];
+_camera camPrepareFOV 0.700;
+_camera camCommitPrepared 0
+@camCommitted _camera
 
+~20
 
-
-
-
+_camera camPrepareTarget civ1;
+_camera camPreparePos [5724.44,2375.13,2.15];
+_camera camPrepareFOV 0.700;
+_camera camCommitPrepared 3
+@camCommitted _camera
 
 
 
