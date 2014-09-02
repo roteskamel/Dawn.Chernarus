@@ -1,0 +1,23 @@
+titlecut [" ","BLACK IN",1]
+_camera = "camera" camcreate [0,0,0]
+_camera cameraeffect ["internal", "back"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_camera cameraeffect ["terminate","back"]
+camdestroy _camera
+killchicken=true;
+publicvariable "killchicken";
+~2
+exit;
