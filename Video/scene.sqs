@@ -2,26 +2,49 @@ titlecut [" ","BLACK IN",1]
 _camera = "camera" camcreate [0,0,0]
 _camera cameraeffect ["internal", "back"]
 
-;comment "Start";
-_camera camPrepareTarget [60439.65,86075.34,-209.83];
-_camera camPreparePos [5724.44,2375.13,2.15];
+;comment "23:54:12";
+_camera camPrepareTarget [101272.77,-8599.64,-31311.94];
+_camera camPreparePos [6952.88,2475.85,4.41];
 _camera camPrepareFOV 0.700;
 _camera camCommitPrepared 0
-@camCommitted _camera
 
-~20
+~7
 
 _camera camPrepareTarget civ1;
-_camera camPreparePos [5724.44,2375.13,2.15];
+_camera camPreparePos [6952.88,2475.85,4.41];
 _camera camPrepareFOV 0.700;
 _camera camCommitPrepared 3
-@camCommitted _camera
 
+~7
 
+;comment "0:12:03";
+_camera camPrepareTarget [-76690.67,54155.62,-18713.80];
+_camera camPreparePos [6966.35,2445.89,1.99];
+_camera camPrepareFOV 0.700;
+_camera camCommitPrepared 0
 
+~13
 
+;comment "0:34:11";
+_camera camPrepareTarget [-72303.13,-58511.29,8.02];
 
+#loop
+;comment "17:42:23";
+_camera camsetTarget car1;
+_camera camsetrelPos [0,0,0];
+_camera camPrepareFOV 0.700;
+_camera camCommitPrepared 0
 
+?cut1 : goto "nextscene"
+goto "loop"
+
+#nextscene
+
+;comment "0:53:47";
+_camera camPrepareTarget [-72127.05,-45222.50,-38525.33];
+_camera camPreparePos [6852.48,2489.33,15.01];
+_camera camPrepareFOV 0.700;
+_camera camCommitPrepared 15
 
 
 _camera cameraeffect ["terminate","back"]
