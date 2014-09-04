@@ -6789,7 +6789,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=17;
+		items=18;
 		class Item0
 		{
 			position[]={184.95825,82.564888,1937.5531};
@@ -7046,6 +7046,23 @@ class Mission
 			class Effects
 			{
 				track="Track07_Last_Men_Standing";
+			};
+		};
+		class Item17
+		{
+			position[]={978.45654,-19.875069,1218.6575};
+			a=0;
+			b=0;
+			activationBy="WEST";
+			timeoutMin=2;
+			timeoutMid=2;
+			timeoutMax=2;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="true";
+			expActiv="nul = execVM ""video\stext.sqf"";";
+			class Effects
+			{
 			};
 		};
 	};
