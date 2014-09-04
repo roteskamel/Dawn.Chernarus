@@ -15,7 +15,7 @@ _camera camPreparePos [6952.88,2475.85,4.41];
 _camera camPrepareFOV 0.700;
 _camera camCommitPrepared 3
 
-~7
+~10
 
 ;comment "0:12:03";
 _camera camPrepareTarget [-76690.67,54155.62,-18713.80];
@@ -23,7 +23,7 @@ _camera camPreparePos [6966.35,2445.89,1.99];
 _camera camPrepareFOV 0.700;
 _camera camCommitPrepared 0
 
-~13
+~14
 
 ;comment "0:34:11";
 _camera camPrepareTarget [-72303.13,-58511.29,8.02];
@@ -35,17 +35,132 @@ _camera camsetrelPos [0,0,0];
 _camera camPrepareFOV 0.700;
 _camera camCommitPrepared 0
 
-?cut1 : goto "nextscene"
+?!alive pers1 : goto "nextscene"
 goto "loop"
 
 #nextscene
 
-;comment "0:53:47";
-_camera camPrepareTarget [-72127.05,-45222.50,-38525.33];
-_camera camPreparePos [6852.48,2489.33,15.01];
+;comment "14:36:41";
+_camera camPrepareTarget [-87323.58,-23221.83,-21530.31];
+_camera camPreparePos [6905.62,2407.51,2.36];
 _camera camPrepareFOV 0.700;
-_camera camCommitPrepared 15
+_camera camCommitPrepared 4
 
+
+~4
+
+;comment "14:36:06";
+_camera camPrepareTarget [-91753.30,-11600.56,-9001.27];
+_camera camPreparePos [6837.56,2494.49,2.37];
+_camera camPrepareFOV 0.700;
+_camera camCommitPrepared 11
+
+
+~11
+
+;comment "geht zum platz";
+_camera camPrepareTarget [-63888.22,70046.73,-21948.70];
+_camera camPreparePos [6753.35,2560.05,5.30];
+_camera camPrepareFOV 0.700;
+_camera camCommitPrepared 9
+
+~9
+
+;comment "15:04:06";
+_camera camPrepareTarget [-58476.98,-73236.21,-877.81];
+_camera camPreparePos [6733.60,2570.41,2.44];
+_camera camPrepareFOV 0.700;
+_camera camCommitPrepared 4
+
+~4
+
+;comment "killscene wird angefahren";
+_camera camPrepareTarget civkill;
+_camera camPreparePos [6618.93,2445.72,2.00];
+_camera camPrepareFOV 0.700;
+_camera camCommitPrepared 16
+
+~16
+
+;comment "nächste Kreuzung";
+_camera camPrepareTarget [76300.38,-66975.63,-17948.45];
+_camera camPreparePos [6589.01,2434.16,5.23];
+_camera camPrepareFOV 0.700;
+_camera camCommitPrepared 4
+
+~4
+
+;comment "15:57:56";
+_camera camPrepareTarget [-83587.29,-28265.77,-30266.11];
+_camera camPreparePos [6659.60,2385.67,4.91];
+_camera camPrepareFOV 0.700;
+_camera camCommitPrepared 6
+
+~6
+
+;comment "15:58:55";
+_camera camPrepareTarget [-58345.93,-72438.68,-13885.41];
+_camera camPreparePos [6593.53,2326.42,2.79];
+_camera camPrepareFOV 0.700;
+_camera camCommitPrepared 8
+
+~8
+
+;comment "15:59:27";
+_camera camPrepareTarget [-38987.16,-79408.02,-35228.29];
+_camera camPreparePos [6544.86,2354.58,6.20];
+_camera camPrepareFOV 0.700;
+_camera camCommitPrepared 8
+
+~8
+
+;comment "16:00:09";
+_camera camPrepareTarget [57437.91,79805.92,-37547.51];
+_camera camPreparePos [6501.96,2262.97,33.21];
+_camera camPrepareFOV 0.700;
+_camera camCommitPrepared 10
+
+~10
+
+;comment "Sprung zum startpunkt";
+_camera camPrepareTarget [55245.97,83073.09,-17997.85];
+_camera camPreparePos [118.72,1549.60,11.44];
+_camera camPrepareFOV 0.700;
+_camera camCommitPrepared 0
+
+;comment "17:18:12";
+_camera camPrepareTarget [95688.48,19851.85,-23306.12];
+_camera camPreparePos [107.20,1602.94,4.52];
+_camera camPrepareFOV 0.700;
+_camera camCommitPrepared 8
+
+~8
+
+;comment "17:18:58";
+_camera camPrepareTarget [97170.38,17044.83,-19075.16];
+_camera camPreparePos [176.18,1614.69,3.65];
+_camera camPrepareFOV 0.700;
+_camera camCommitPrepared 16
+
+~16
+
+;comment "17:19:22";
+_camera camPrepareTarget [-96364.79,-16318.50,-18808.34];
+_camera camPreparePos [197.13,1616.77,3.85];
+_camera camPrepareFOV 0.700;
+_camera camCommitPrepared 5
+
+~5
+
+;comment "17:19:52";
+_camera camPrepareTarget [-69364.73,61682.61,-39985.55];
+_camera camPreparePos [198.72,1596.34,13.42];
+_camera camPrepareFOV 0.700;
+_camera camCommitPrepared 8
+
+~8
+
+2 fadeMusic 0;
 
 _camera cameraeffect ["terminate","back"]
 camdestroy _camera
