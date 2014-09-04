@@ -415,7 +415,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="s3";
-					init="ret=[group this,[""Läufer"",""sl"",""ColorBlue""]] call e12_amf_tracking_fnc_createMarker;";
+					init="ret=[group this,[""Läufer"",""sl"",""ColorBlue""]] call e12_amf_tracking_fnc_createMarker; ";
 					description="#3 SQL";
 				};
 				class Item1
@@ -3042,7 +3042,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={3350.4121,5.7989802,2143.5762};
+					position[]={2003.0555,5.8467226,2235.3347};
 					azimut=661.75702;
 					id=139;
 					side="WEST";
@@ -7052,7 +7052,7 @@ class Mission
 		};
 		class Item15
 		{
-			position[]={6662.0112,6.0865927,2493.6335};
+			position[]={6637.4023,6,2469.7083};
 			a=10;
 			b=10;
 			angle=133.661;
