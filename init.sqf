@@ -33,12 +33,12 @@ waitUntil{!isNil "HCName"};
 if(!isServer) then {waitUntil{!isNull player}};
 
 //////////////////////////////////////
-//////  Endtrigger  nur für S1  //////
+//////  Endtrigger  nur für S17  //////
 //////////////////////////////////////
 1 setRadioMsg "NULL";
 2 setRadioMsg "NULL";
 3 setRadioMsg "Null";
-if(player==s1) then {
+if(player==s17) then {
 	1 setRadioMsg "ende";
 	2 setRadioMsg "fallback";
 	3 setRadioMsg "arti";
@@ -50,3 +50,16 @@ if (local player) then {
    player addEventhandler ["Respawn", {player enableFatigue false}];
 };
 
+//Video
+waituntil {!isnil "bis_fnc_init"};
+finishMissionInit;
+enableRadio false;
+_camera = "camera" camCreate [(getPos player select 0),(getPos player select 1),200];
+_camera cameraEffect ["internal","back"];
+_camera camSetFOV 0.700;
+_camera camCommit 0;
+waitUntil {camCommitted _camera};
+cutText["Synchronisiere, bitte warten . . .", "BLACK FADED", 10];
+waitUntil {time > 12};
+cutText["", "BLACK IN", 0];
+enableRadio true;
