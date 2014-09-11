@@ -51,6 +51,7 @@ if (local player) then {
 };
 
 //Video
+[] spawn {
 waituntil {!isnil "bis_fnc_init"};
 finishMissionInit;
 enableRadio false;
@@ -63,3 +64,4 @@ cutText["Synchronisiere, bitte warten . . .", "BLACK FADED", 10];
 waitUntil {time > 12};
 cutText["", "BLACK IN", 0];
 enableRadio true;
+};
