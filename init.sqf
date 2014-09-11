@@ -53,7 +53,6 @@ if (local player) then {
 //Video
 [] spawn {
 waituntil {!isnil "bis_fnc_init"};
-finishMissionInit;
 enableRadio false;
 _camera = "camera" camCreate [(getPos player select 0),(getPos player select 1),200];
 _camera cameraEffect ["internal","back"];
