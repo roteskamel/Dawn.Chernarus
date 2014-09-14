@@ -162,9 +162,10 @@ _camera camCommitPrepared 8
 
 2 fadeMusic 0;
 
-_camera cameraeffect ["terminate","back"]
-camdestroy _camera
+_camera cameraeffect ["terminate","back"];
 killchicken=true;
 publicvariable "killchicken";
-~2
+camdestroy _camera;
+~1
 exit;
+

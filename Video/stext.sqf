@@ -1,6 +1,6 @@
 
 // Loadingtext
-if (time < 10) then
+if (time < 15) then
 {
     [] Spawn {
         waitUntil{!(isNil "BIS_fnc_init")};
